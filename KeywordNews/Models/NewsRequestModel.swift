@@ -15,4 +15,3 @@ struct NewsRequestModel: Codable {
     /// 검색어
     let query: String
 }
-

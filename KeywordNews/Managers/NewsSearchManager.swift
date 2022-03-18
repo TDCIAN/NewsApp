@@ -8,7 +8,7 @@
 import Foundation
 import Alamofire
 
-protocol NewsSearchManagerProtocol: AnyObject {
+protocol NewsSearchManagerProtocol {
     func request(
         from keyword: String,
         start: Int,
@@ -17,7 +17,7 @@ protocol NewsSearchManagerProtocol: AnyObject {
     )
 }
 
-struct NewsSearchManager {
+struct NewsSearchManager: NewsSearchManagerProtocol {
     func request(
         from keyword: String,
         start: Int,
