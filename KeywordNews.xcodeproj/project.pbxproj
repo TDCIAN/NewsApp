@@ -18,6 +18,7 @@
 		1E11471A27E44A2C00D6FD69 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1E11471927E44A2C00D6FD69 /* SnapKit */; };
 		1E11471D27E44A3900D6FD69 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1E11471C27E44A3900D6FD69 /* Alamofire */; };
 		1E11472027E4501100D6FD69 /* NewsListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E11471F27E4501100D6FD69 /* NewsListPresenter.swift */; };
+		1E11472527E4542100D6FD69 /* NewsListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E11472427E4542100D6FD69 /* NewsListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		1E11470B27E449E200D6FD69 /* KeywordNewsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordNewsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1E11471F27E4501100D6FD69 /* NewsListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListPresenter.swift; sourceTree = "<group>"; };
 		1E11472327E4519B00D6FD69 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		1E11472427E4542100D6FD69 /* NewsListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 			children = (
 				1E1146EC27E449E000D6FD69 /* NewsListViewController.swift */,
 				1E11471F27E4501100D6FD69 /* NewsListPresenter.swift */,
+				1E11472427E4542100D6FD69 /* NewsListTableViewCell.swift */,
 			);
 			path = NewsList;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E1146ED27E449E000D6FD69 /* NewsListViewController.swift in Sources */,
+				1E11472527E4542100D6FD69 /* NewsListTableViewCell.swift in Sources */,
 				1E1146E927E449E000D6FD69 /* AppDelegate.swift in Sources */,
 				1E1146EB27E449E000D6FD69 /* SceneDelegate.swift in Sources */,
 				1E11472027E4501100D6FD69 /* NewsListPresenter.swift in Sources */,
