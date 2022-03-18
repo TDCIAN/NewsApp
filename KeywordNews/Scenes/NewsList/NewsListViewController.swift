@@ -36,6 +36,9 @@ final class NewsListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         presenter.viewDidLoad()
+        NewsSearchManager().request(from: "비트코인", start: 1, display: 20) { newsArray in
+            print("뉴스어레이 - \(newsArray)")
+        }
     }
 }
 
