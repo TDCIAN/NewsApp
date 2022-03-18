@@ -12,6 +12,7 @@ protocol NewsListProtocol: AnyObject {
     func setupNavigationBar()
     func setupLayout()
     func endRefreshing()
+    func moveToNewsWebViewController()
 }
 
 final class NewsListPresenter: NSObject {
@@ -32,7 +33,9 @@ final class NewsListPresenter: NSObject {
 }
 
 extension NewsListPresenter: UITableViewDelegate {
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        viewController?.moveToNewsWebViewController()
+    }
 }
 
 extension NewsListPresenter: UITableViewDataSource {
